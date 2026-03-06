@@ -1,0 +1,8 @@
+make a few changes.
+1. add resend OTP button
+2. Admin should login with mobile number and password, instead of otp.
+3. If admin change the company logo, then the logo should show on login page and on all page.
+4. Admin can see all users's time bank
+5. Not only admin can add employees. but I want that Any employee of any rank can add or delete only those below them.
+6. showing error while clock-out, because "total_minutes" = 170.15001468333 But in PostgreSQL the column total_minutes is probably defined as INTEGER, and PostgreSQL cannot store decimals inside an integer field.
+7. In the database, don't store the OTP after 12 hours..
